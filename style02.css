@@ -1,0 +1,372 @@
+* {
+    max-width: 1400px;
+    font-family: "Raleway";
+  }
+
+body{
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.icon-bleu{
+    color: #0065FC;
+}
+
+.icon-gris{
+    color: #F2F2F2;
+}
+
+.marginright{
+    margin-right: 10px;
+}
+
+.marginleft{
+    margin-left: 15px;
+}
+  
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Header*/
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    padding-top: 0px;
+    max-width: 61.9px;
+}
+
+nav a{
+    align-content: flex-end;
+    margin-left: 50px;
+    padding-top: 40px;
+    font-size: 16px;
+    margin-right: 77px;
+}
+
+nav a:hover{
+    color: #0065FC;
+    border-top: #0065fc solid 1px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+/*search-bar*/
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+.search-bar input{
+    border: solid 1px #D9D9D9;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.search-bar i{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid #D9D9D9;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #D9D9D9;
+    height: 50px;
+    width: 50px;
+}
+
+::placeholder{
+    padding-left: 17px;
+}
+
+
+
+.searh-button,
+.fa-location-dot{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.searh-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 16px;
+    height: 50px;
+    background-color: #0065FC;
+    border-radius: 0px 15px 15PX 0px;
+    color: white;
+    border: #0065FC;
+
+
+}
+/* Filtres */
+
+.filtres{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.filtres p{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.filtres-buttons{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #d9d9d9;
+    border-radius: 25px;
+    padding: 14px 20px 16px 20px;
+}
+
+.filtres-buttons:hover{
+    background-color: #DEEBFF;
+}
+
+.fa-info{
+    border: 2px solid #D9D9D9;
+    border-radius: 100%;
+    padding: 5px 10px 5px 10px;
+    margin-right: 11px;
+}
+
+
+#middle{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 40px;
+}
+
+.middle-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #d9d9d9;
+    flex: 60%;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.card-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 30%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card img{
+    height: 124px;
+    min-width: 98%;
+    max-width: 100%;
+    background-color: #d9d9d9;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    border: solid 2px white;
+}
+
+
+/* Middle Populaire */
+
+.pop-title{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 140px;
+}
+
+.middle-pop{
+    background-color: #d9d9d9;
+    flex: 30%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 625px;
+    gap: 35px;
+    padding: 40px;
+}
+
+.middle-pop-cards{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 20px;
+    height: 144px;
+    width: 343px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.middle-right-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-pop-cards img{
+    max-height: 144px;
+    max-width: 137px;
+    min-width: 137px;
+    background-color: #d9d9d9;
+    border-radius: 20px 0px 0px 20px;
+    border: solid 2px white;
+    object-fit: cover;
+}
+
+/*  Activites*/
+#activites{
+    display: flex;
+    flex-direction: column;
+}
+.activites-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 20%;
+}
+
+.activites-cards p{
+    margin-left: 10px;
+}
+
+.activites-cards-indiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 445px;
+    width: 302px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.activites-cards-indiv img{
+    max-width: 302px;
+    max-height: 389px;
+    min-height: 389px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.activites-cards-indiv p{
+    font-weight: 700;
+}
+
+footer{
+    background-color: #d9d9d9;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Mobile */
+@media screen and (max-width: 768px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 3px #D9D9D9 solid;
+    }
+    /*Header*/
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    nav a{
+        align-content: flex-end;
+        margin-left: 50px;
+        padding-top: 40px;
+        font-size: 16px;
+        margin-right: 77px;
+        border: 1px black solid;
+   
+    }
+    nav a:hover{
+        color: none;
+        border-top: none;
+    }
+
+
+    header a:active{
+        color: #0065FC;
+        border-bottom: #0065fc solid 3px;
+    }
+
+
+    #middle{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .filtres{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-filter-buttons{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+}
