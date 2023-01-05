@@ -35,7 +35,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
 }
 
 /*Header*/
@@ -52,9 +52,10 @@ nav{
     justify-content: space-between;
 }
 
-nav img{
-    padding-top: 0px;
-    max-width: 61.9px;
+header img{
+    width: 61.9px;
+    height: 19px;
+    padding-bottom: 2px;
 }
 
 nav a{
@@ -93,6 +94,10 @@ main{
     font-weight: 700;
 }
 
+.search-bar input :focus{
+    border: #0065FC 1px dotted;
+}
+
 .search-bar i{
     display: flex;
     flex-direction: row;
@@ -108,8 +113,6 @@ main{
 ::placeholder{
     padding-left: 17px;
 }
-
-
 
 .searh-button,
 .fa-location-dot{
