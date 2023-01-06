@@ -1,9 +1,5 @@
 /* Mobile */
 @media screen and (max-width: 768px) {
-    * {
-        border: 1px solid black;
-    }
-
     body {
         max-width: 768px;
         margin: auto;
