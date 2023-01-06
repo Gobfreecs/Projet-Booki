@@ -24,11 +24,9 @@
         margin-left: 50px;
         padding-top: 40px;
         font-size: 16px;
-        margin-right: none;
     }
 
     nav a:hover {
-        color: none;
         border-top: none;
     }
 
