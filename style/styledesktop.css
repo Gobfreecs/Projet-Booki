@@ -4,9 +4,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     margin: auto;
-    gap: 60px;
+    gap: 30px;
 }
 
 .bold {
@@ -60,9 +59,12 @@ header img {
 }
 
 nav a {
-    margin-left: 50px;
-    font-size: 16px;
-    margin-right: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
     padding: 37px 1em 0 1em;
 }
 
@@ -93,6 +95,8 @@ main {
     border: solid 1px #D9D9D9;
     font-size: 18px;
     font-weight: 700;
+    width: 20%;
+    height: 50px;
 }
 
 .search-bar input :focus {
@@ -116,6 +120,7 @@ main {
 
 .fa-magnifying-glass {
     visibility: hidden;
+    width: 0px;
 }
 
 ::placeholder {
@@ -193,7 +198,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     background-color: #d9d9d9;
-    min-width: 60%;
+    min-width: 50%;
     min-height: 625px;
     border-radius: 20px;
     padding: 40px;
@@ -249,7 +254,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 25%;
+    max-width: 20%;
     min-height: 625px;
     row-gap: 35px;
     padding: 40px;
@@ -285,9 +290,8 @@ main {
 
 
 .middle-pop-cards img {
-    max-height: 144px;
-    max-width: 137px;
-    min-width: 137px;
+    max-height: 100%;
+    max-width: 40%;
     background-color: #d9d9d9;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
